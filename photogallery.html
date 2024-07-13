@@ -3,10 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Gallery</title>
+    <style>
+        .gallery {
+            display: inline-block;
+            border: 1px solid rgb(162, 237, 181);
+            margin: 5px;
+            width: 200px;
+            vertical-align: top;
+        }
+
+        .gallery .description {
+            padding: 10px;
+            text-align: center;
+        }
+
+        .gallery:hover {
+            border-color: rgb(121, 114, 114);
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="gallery">
+        <a target="_blank" href="realestate.jpg">
+            <img src="realestate.jpg" alt="realestate">
+        </a>
+        <div class="description">realestate</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="holiday.jpg">
+            <img src="holiday.jpg" alt="holiday">
+        </a>
+        <div class="description">holiday</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="realestate2.jpg">
+            <img src="realestate2.jpg" alt="realestate2">
+        </a>
+        <div class="description">realestate2</div>
+    </div>
+
+    <div class="container">
+        <div class="col">
+    <div class="box"><img src="realestate.jpg"></div>
+    <div class="box"><img src="realestate2.jpg"></div>
+    <div class="box"><img src="holiday.jpg"></div>
+</div>
+</div>
 </body>
 </html>
+

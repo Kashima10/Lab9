@@ -1,0 +1,21 @@
+.gallery{
+    display: inline-block;
+    border: 1px solid color(srgb rgb(162, 237, 181) green blue);
+    margin: 5px;
+    width: 200px;
+
+}
+.gallery.description{
+    padding: 10px;
+    text-align: center;
+}
+
+.gallery:hover{
+    border: 1px solid color(srgb rgb(121, 114, 114) green blue);
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+

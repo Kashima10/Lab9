@@ -18,4 +18,13 @@
     height: auto;
 }
 
+.container{
+   width: 60%;
+   overflow: auto;
+   margin: 100px auto;
+}
+.box{
+    width: 100px;
+    height: 100px;
+}
 
